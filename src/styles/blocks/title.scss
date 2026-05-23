@@ -1,14 +1,17 @@
 .title {
-  font-family: Roboto, sans-serif;
+  font-family: Manrope, sans-serif;
   font-weight: 400;
-  font-size: 38px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 100%;
   margin: 0;
+  letter-spacing: 0;
 
   &--secoundary {
-    font-size: 30px;
-    line-height: 1.2;
+    font-size: 32px;
+    line-height: 32px;
     margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
   }
 }
