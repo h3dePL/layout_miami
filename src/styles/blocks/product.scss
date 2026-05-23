@@ -1,0 +1,18 @@
+.product {
+  background-image: url('../images/photos/8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;
+  margin: 0;
+  font-family: Manrope, sans-serif;
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 20px 20px; // wartość 20px jest do odczytania jak bedzie dostep do figma.
+  box-sizing: border-box;
+  color: black;
+}

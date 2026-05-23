@@ -3,8 +3,9 @@
 @import 'typography';
 @import 'blocks/header';
 @import 'blocks/title';
+@import 'blocks/product';
 
 body {
   margin: 0;
-  background: $c-gray;
+  background: white;
 }
