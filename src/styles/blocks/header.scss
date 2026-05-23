@@ -1,0 +1,13 @@
+.header {
+  background-image: url('../images/photos/7.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 20px 20px; // wartość 20px jest do odczytania jak bedzie dostep do figma.
+  box-sizing: border-box;
+  min-height: 100vh;
+  color: #fff;
+}
