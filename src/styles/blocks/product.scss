@@ -6,13 +6,21 @@
   height: 280px;
   margin: 0;
   font-family: Manrope, sans-serif;
-}
 
-.product__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0 20px 20px; // wartość 20px jest do odczytania jak bedzie dostep do figma.
-  box-sizing: border-box;
-  color: black;
+  &__title {
+    margin: 0;
+    padding: 20px 20px 0;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 20px 20px; // wartość 20px jest do odczytania jak bedzie dostep do figma.
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
+  }
 }
