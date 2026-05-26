@@ -1,16 +1,21 @@
 .product {
+  display: grid;
+  gap: 24px;
   width: 100%;
-  max-width: 400px; // widac z figmy.
   margin: 0;
   font-family: Manrope, sans-serif;
 
+  &__card {
+    width: 100%;
+    max-width: 400px; // widac z figmy.
+  }
+
   &__image {
     height: 280px;
+    width: calc(100% - 40px);
     margin-inline: 20px;
-    background-image: url('../images/photos/8.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: block;
+    object-fit: cover;
   }
 
   &__content {
