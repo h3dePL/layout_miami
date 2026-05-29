@@ -12,15 +12,16 @@
     max-width: 400px;
     padding: 12px 20px;
     margin-bottom: 16px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
+    background-color: #F9F9F9;
 }
 
 &__input--message {
     min-height: 148px;
-    resize: vertical;
+    resize: none;
 }
 
 &__button {
@@ -39,7 +40,7 @@
     display: flex;
     align-items: center;
     transition: background-color 0.3s ease;
-    width: calc(100% - 40px);
+    width: 100%;
     box-sizing: border-box;
     height: 56px;
 }
