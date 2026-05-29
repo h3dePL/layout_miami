@@ -1,0 +1,24 @@
+  .product__button {
+    margin: 16px 20px 0;
+    padding: 12px 20px;
+    background-color: #F98921;
+    color: white;
+    border: none;
+    box-shadow: none;
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    height: 56px;
+  }
+
+  .product__button:hover {
+    background-color: #1B2129;
+  }
