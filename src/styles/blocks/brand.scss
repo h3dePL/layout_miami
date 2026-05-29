@@ -1,0 +1,21 @@
+.brand {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FCFAEF;
+
+&__image {
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  object-fit: cover;
+  margin-top: 60px;
+  }
+
+&__info {
+  margin: 0;
+  font-family: Manrope, sans-serif;
+  padding: 0 20px;
+  }
+}
