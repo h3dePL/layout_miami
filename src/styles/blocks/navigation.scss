@@ -1,4 +1,21 @@
 .navigation {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
+
+  &__icons {
+    display: flex;
+    gap: 25px;
+  }
+
+  &__logo {
+    width: 152px;
+    height: auto;
+  }
+
+  @media (min-width: 744px) {
+    &__logo {
+      width: 228px;
+    }
+  }
 }
