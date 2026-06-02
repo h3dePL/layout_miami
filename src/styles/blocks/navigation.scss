@@ -12,7 +12,7 @@
     display: flex;
     gap: 25px;
 
-    .navigation__icon--phone-hidden {
+    .navigation__icon--phone-hidden { // wyzej do poprawy zgodnie z BEM.
       opacity: 0;
     }
   }
