@@ -8,6 +8,15 @@
     gap: 25px;
   }
 
+  &__icons--hidden {
+    display: flex;
+    gap: 25px;
+
+    .navigation__icon--phone-hidden {
+      opacity: 0;
+    }
+  }
+
   &__logo {
     width: 152px;
     height: auto;
