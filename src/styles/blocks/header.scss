@@ -10,4 +10,22 @@
   box-sizing: border-box;
   min-height: 100vh;
   color: #fff;
+
+  &__title {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    margin: 0;
+    letter-spacing: 0;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .header {
+    display: grid;
+    grid-template-columns: repeat(12, 63px);
+    grid-template-rows: 1fr 1fr;
+  }
 }
