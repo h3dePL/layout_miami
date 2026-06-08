@@ -2,15 +2,18 @@
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  align-items: center;
 
   &__icons {
     display: flex;
     gap: 25px;
+    align-items: center;
   }
 
   &__icons--hidden {
     display: flex;
     gap: 25px;
+    align-items: center;
   }
 
   &__icon--phone-hidden {
