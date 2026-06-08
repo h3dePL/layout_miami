@@ -11,10 +11,10 @@
   &__icons--hidden {
     display: flex;
     gap: 25px;
+  }
 
-    .navigation__icon--phone-hidden { // wyzej do poprawy zgodnie z BEM.
-      opacity: 0;
-    }
+  &__icon--phone-hidden {
+    opacity: 0;
   }
 
   &__logo {

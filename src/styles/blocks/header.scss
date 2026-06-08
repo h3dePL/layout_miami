@@ -27,5 +27,15 @@
     display: grid;
     grid-template-columns: repeat(12, 63px);
     grid-template-rows: 1fr 1fr;
+
+    &__navigation {
+      grid-column: 1 / 13;
+      grid-row: 1 / 2;
+    }
+
+    &__title {
+      grid-column: 1 / 13;
+      grid-row: 2 / 3;
+    }
   }
 }
