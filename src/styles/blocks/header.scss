@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 20px 20px; // wartość 20px jest do odczytania jak bedzie dostep do figma.
+  padding: 0 20px 20px;
   box-sizing: border-box;
   min-height: 100vh;
   color: #fff;
@@ -31,11 +31,15 @@
     &__navigation {
       grid-column: 1 / 13;
       grid-row: 1 / 2;
+      align-self: start;
     }
 
     &__title {
       grid-column: 1 / 13;
       grid-row: 2 / 3;
+      font-size: 56px;
+      font-weight: 700;
+      place-self: end start;
     }
   }
 }

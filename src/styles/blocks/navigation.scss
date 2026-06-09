@@ -10,13 +10,11 @@
     align-items: center;
   }
 
-  &__icons--hidden {
-    display: flex;
-    gap: 25px;
-    align-items: center;
+  &__icon {
+    display: block;
   }
 
-  &__icon--phone-hidden {
+  &__icon--hidden {
     opacity: 0;
   }
 
@@ -29,5 +27,10 @@
     &__logo {
       width: 228px;
     }
+
+    &__icon {
+      width: 32px;
+    }
+
   }
 }
