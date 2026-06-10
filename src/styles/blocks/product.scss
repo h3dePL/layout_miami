@@ -12,8 +12,7 @@
 
   &__image {
     height: 280px;
-    width: calc(100% - 40px);
-    margin-inline: 20px;
+    width: 100%;
     display: block;
     object-fit: cover;
   }
