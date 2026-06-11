@@ -14,7 +14,6 @@
     display: flex;
     align-items: center;
     transition: background-color 0.3s ease;
-    width: calc(100% - 40px);
     box-sizing: border-box;
     height: 56px;
   }
@@ -23,7 +22,13 @@
     background-color: #1B2129;
   }
 
- @media (min-width: 744px) {
+ @media (min-width: 320px) {
+    .product__button {
+    width: calc(100% - 40px);
+    }
+  }
+
+  @media (min-width: 744px) {
     .product__button {
     width: 600px;
     height: 56px;
@@ -37,6 +42,7 @@
     .product__button {
     width: 324px;
     height: 56px;
-    justify-content: center;
+    margin: 16px 0 50px 120px;
+    align-items: center;
     }
   }
