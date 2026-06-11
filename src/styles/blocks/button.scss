@@ -22,3 +22,21 @@
   .product__button:hover {
     background-color: #1B2129;
   }
+
+ @media (min-width: 744px) {
+    .product__button {
+    width: 600px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 50px;
+    }
+  }
+
+  @media (min-width: 1260px) {
+    .product__button {
+    width: 324px;
+    height: 56px;
+    justify-content: center;
+    }
+  }
