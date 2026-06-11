@@ -19,7 +19,17 @@
 
     &__image {
       width: 100%;
-      height: 188px;
+      height: 184px;
+    }
+  }
+
+    @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, 498px);
+    justify-content: flex-start;
+
+    &__image {
+      width: 498px;
+      height: 324px;
     }
   }
 }
