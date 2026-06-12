@@ -6,6 +6,13 @@
   &__content {
     display: grid;
     gap: 24px;
+    padding-top: 40px;
+
+    .section-title {
+      place-self: start start;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 
   &__image {
@@ -20,6 +27,7 @@
     margin: 0;
     font-family: Manrope, sans-serif;
     margin-bottom: 40px;
+    place-self: start start;
   }
 
   @media (min-width: 320px) {
