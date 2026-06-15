@@ -8,15 +8,15 @@
     width: 100%;
   }
 
-  @media (min-width: 1260px) {
-    grid-template-columns: repeat(3, 324px);
-    justify-content: center;
-
-    &__image {
+  &__image {
     width: 100%;
     display: block;
     object-fit: cover;
-    }
+  }
+
+  @media (min-width: 1260px) {
+    grid-template-columns: repeat(3, 324px);
+    justify-content: flex-start;
   }
 
   &__content {
