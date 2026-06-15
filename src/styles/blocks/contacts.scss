@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    padding-left: 20px;
     margin: 0 auto;
     box-sizing: border-box;
     font-family: Manrope, sans-serif;
@@ -20,5 +20,27 @@
       font-size: 16px;
       line-height: 1.5;
       color: #191919
+    }
+
+    @media (min-width: 744px) {
+
+      &__info {
+        padding-left: 50px;
+      }
+
+      &__details {
+        padding-left: 50px;
+      }
+    }
+
+    @media (min-width: 1260px) {
+
+      &__info {
+        padding-left: 100px;
+      }
+
+      &__details {
+        padding-left: 100px;
+      }
     }
   }
