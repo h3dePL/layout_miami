@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20px;
+  width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     font-family: Manrope, sans-serif;
@@ -21,26 +21,14 @@
       line-height: 1.5;
       color: #191919
     }
-
-    @media (min-width: 744px) {
-
-      &__info {
-        padding-left: 50px;
-      }
-
-      &__details {
-        padding-left: 50px;
-      }
-    }
-
-    @media (min-width: 1260px) {
-
-      &__info {
-        padding-left: 100px;
-      }
-
-      &__details {
-        padding-left: 100px;
-      }
-    }
   }
+
+.contacts-layout {
+  display: grid;
+  gap: 24px;
+
+  @media (min-width: 1260px) {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start;
+  }
+}

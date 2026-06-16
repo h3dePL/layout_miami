@@ -204,45 +204,47 @@
         </div>
       </section>
       <h2 class="section-title section-container" id="contacts">Contacts us</h2>
-      <form class="form section-container" id="contact-form">
-        <input
-          class="form__input"
-          id="contact-name"
-          name="name"
-          type="text"
-          placeholder="Name"
-          required
-        />
-        <input
-          class="form__input"
-          id="contact-email"
-          name="email"
-          type="email"
-          placeholder="Email"
-          required
-        />
-        <textarea
-          class="form__input form__input--message"
-          id="contact-message"
-          name="message"
-          placeholder="Message"
-          required
-        ></textarea>
-        <button
-          class="form__button"
-          type="submit"
-        >
-          Send
-        </button>
-      </form>
-      <section class="contacts">
-        <p class="contacts__info">Phone</p>
-        <p class="contacts__details">+1 234 5555-55-55</p>
-        <p class="contacts__info">Email</p>
-        <p class="contacts__details">hello@bang&olufsen.com</p>
-        <p class="contacts__info">Address</p>
-        <p class="contacts__details">400 first ave.<br>suite 700,<br>Minneapolis, MN 55401</p>
-      </section>
+      <div class="contacts-layout section-container">
+        <form class="form" id="contact-form">
+          <input
+            class="form__input"
+            id="contact-name"
+            name="name"
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="form__input"
+            id="contact-email"
+            name="email"
+            type="email"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            class="form__input form__input--message"
+            id="contact-message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button
+            class="form__button"
+            type="submit"
+          >
+            Send
+          </button>
+        </form>
+        <section class="contacts">
+          <p class="contacts__info">Phone</p>
+          <p class="contacts__details">+1 234 5555-55-55</p>
+          <p class="contacts__info">Email</p>
+          <p class="contacts__details">hello@nothing.com</p>
+          <p class="contacts__info">Address</p>
+          <p class="contacts__details">400 first ave.<br>suite 700,<br>Minneapolis, MN 55401</p>
+        </section>
+      </div>
     </main>
   </body>
 </html>
