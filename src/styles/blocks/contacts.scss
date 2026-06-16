@@ -25,7 +25,7 @@
 
 .contacts-layout {
   display: grid;
-  gap: 24px;
+  gap: 100px;
 
   @media (min-width: 1260px) {
     grid-template-columns: repeat(2, 1fr);
