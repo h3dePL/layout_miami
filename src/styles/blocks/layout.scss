@@ -1,12 +1,14 @@
 .section-container {
   padding-inline: 20px;
-  padding-top: 120px;
+  padding-top: 20px;
 
   @media (min-width: 744px) {
     padding-inline: 72px;
+    padding-top: 40px;
   }
 
   @media (min-width: 1260px) {
     padding-inline: 120px;
+    padding-top: 120px;
   }
 }
