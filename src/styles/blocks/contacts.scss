@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  width: 100%;
+    width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     font-family: Manrope, sans-serif;
@@ -21,6 +21,10 @@
       line-height: 1.5;
       color: #191919
     }
+
+    @media (min-width: 320px) and (max-width: 1259px) {
+      padding-bottom: 30px;
+    }
   }
 
 .contacts-layout {
@@ -30,5 +34,6 @@
   @media (min-width: 1260px) {
     grid-template-columns: repeat(2, 1fr);
     justify-content: flex-start;
+    padding-bottom: 30px;
   }
 }
