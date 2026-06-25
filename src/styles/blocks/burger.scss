@@ -1,4 +1,6 @@
 .burger {
+  position: relative;
+  display: block;
   width: 24px;
   height: 24px;
   background-image: url('../images/photos/Icon-Burger-menu.svg');
@@ -6,6 +8,12 @@
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    background-image: url('../images/photos/Icon-Burger-menu-hover.svg');
+    transform: scale(1.06);
+  }
 
   @media (min-width: 744px) {
     width: 32px;

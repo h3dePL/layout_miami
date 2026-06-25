@@ -8,9 +8,11 @@
   right: 0;
   transform: translateY(-100%);
   transition: transform 0.3s ease;
+  pointer-events: none;
 
   &:target {
     transform: translateY(0);
+    pointer-events: auto;
   }
 
 }
