@@ -33,4 +33,37 @@
     }
 
   }
+
+  @media (min-width: 1260px) {
+    &__phone-link {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    &__phone-link::before {
+      content: attr(data-phone);
+      position: absolute;
+      right: calc(100% + 12px);
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0;
+      white-space: nowrap;
+      pointer-events: none;
+      font-family: Manrope, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 2px;
+      color: $c-text-primary;
+      text-transform: uppercase;
+      transition: opacity 0.3s ease;
+    }
+
+    &__phone-link:hover::before,
+    &__phone-link:focus-visible::before {
+      opacity: 1;
+    }
+  }
 }

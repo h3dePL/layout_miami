@@ -12,6 +12,11 @@
     width: 100%;
     display: block;
     object-fit: cover;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.03);
+    }
   }
 
   @media (min-width: 1260px) {
@@ -22,7 +27,7 @@
   &__content {
     padding-top: 20px;
     background-color: white;
-    color: black;
+    color: $c-text-primary;
   }
 
   &__title,
