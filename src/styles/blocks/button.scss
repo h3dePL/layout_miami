@@ -42,7 +42,7 @@
     .product__button {
     width: 324px;
     height: 56px;
-    margin: 16px 0 50px 120px;
+    margin: 16px 0 50px calc(50% - 510px);
     align-items: center;
     }
   }
