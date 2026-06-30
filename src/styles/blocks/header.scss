@@ -24,25 +24,23 @@
 
 @media (min-width: 1260px) {
   .header {
-    display: grid;
-    grid-template-columns: repeat(12, 63px);
-    grid-template-rows: 1fr 1fr;
+    padding: 0 120px 80px;
 
     &__navigation {
-      grid-column: 1 / 13;
-      grid-row: 1 / 2;
+      width: 100%;
+      max-width: 1020px;
+      margin-inline: auto;
       align-self: start;
-      margin-left: 120px;
-      margin-right: 120px;
     }
 
     &__title {
-      grid-column: 1 / 13;
-      grid-row: 2 / 3;
+      width: 100%;
+      max-width: 1020px;
+      margin-inline: auto;
       font-size: 56px;
       font-weight: 700;
-      place-self: end start;
-      padding-left: 120px;
+      align-self: end;
+      padding-left: 0;
     }
   }
 }

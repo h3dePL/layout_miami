@@ -1,7 +1,7 @@
 .menu {
   box-sizing: border-box;
   background-color: #F9F9F9;
-  padding: 24px 20px 40px;
+  padding: 0 20px 40px;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -23,6 +23,19 @@
   .menu {
     padding: 0 120px 40px;
   }
+}
+
+.menu .navigation,
+.menu ul,
+.menu__phone,
+.menu p {
+  width: 100%;
+  max-width: 1020px;
+  margin-inline: auto;
+}
+
+.menu__phone {
+  display: block;
 }
 
 .menu ul {
